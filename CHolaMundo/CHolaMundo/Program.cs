@@ -1,12 +1,14 @@
 using System;
 
-namespace CHolaMundo
-{
-	class MainClass
-	{
-		public static void Main (string[] args)
-		{
-			Console.WriteLine ("Hello World!");
+namespace Org.InstitutoSerpis.Ed{
+	class HolaMundo	{
+		public static void Main (string[] args){
+
+			Console.Write ("Introduce tu nombre: ");
+			string nombre = Console.ReadLine ();
+
+			Console.WriteLine ("Hola " + nombre);
+		
 		}
 	}
 }
